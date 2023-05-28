@@ -1,0 +1,40 @@
+
+*{
+  text-align: center;
+  margin: auto;
+  width: 400px;
+}
+h2{
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.icon{
+  border-radius: 20px;
+  display: block;
+  width: 200px;
+  height: auto;
+}
+.footer{
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+}
+.footer>a{
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 20px;
+    height: 30px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    text-decoration: none;
+}
+.footer>a:after{
+    color: rgb(0, 0, 0);
+}
+.footer>a:hover{
+    background-color: rgba(0, 0, 0, 0.107);
+    border-radius: 5%;
+}
